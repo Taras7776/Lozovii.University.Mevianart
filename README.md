@@ -36,7 +36,7 @@ Link on deployed project: mevianart.azurewebsites.net
 
 ### Authorization
 
-* Pages register/login - **▢**
+* Pages register/login - **☑**
 * Service - **▢**
 * Models - **▢**
 
