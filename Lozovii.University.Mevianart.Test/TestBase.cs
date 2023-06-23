@@ -26,7 +26,7 @@ namespace Lozovii.University.Mevianart.Test
             services.AddLogging((config) => config.AddDebug());
             services.RegisterCoreDependencies();
             services.RegisterCoreConfiguration(configuration);
-            services.RegisterDatabseDependencies(configuration);
+            services.RegisterDatabaseDependencies(configuration);
 
             ServiceProvider = services.BuildServiceProvider();
             Logger = ServiceProvider.GetRequiredService<ILogger<TestBase>>();

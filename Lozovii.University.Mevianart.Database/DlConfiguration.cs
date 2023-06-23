@@ -9,7 +9,7 @@ namespace Lozovii.University.Mevianart.Database
 {
     public static class DIConfiguration
     {
-        public static void RegisterDatabseDependencies(this IServiceCollection services, IConfigurationRoot configuration)
+        public static void RegisterDatabaseDependencies(this IServiceCollection services, IConfigurationRoot configuration)
         {
             services.AddDbContext<MevianartDbContext>((x) => x.UseSqlServer(configuration.GetConnectionString("PhoneDatabase")));
 
